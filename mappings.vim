@@ -56,9 +56,14 @@ inoremap ;; <Esc>A;<Esc>
 
 " move lines up/down
 nnoremap <C-A-j> :m .+1<CR>==
-nnoremap <C-A-k> :m .-2<CR>==
+nnoremap <C-A-k> :m .-2<CR>==oi
 inoremap <C-A-j> <Esc>:m .+1<CR>==gi
-inoremap <C-A-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-A-j> :m '>+1<CR>gv=gv
 vnoremap <C-A-k> :m '<-2<CR>gv=gv
 
+nnoremap <Leader>c ciw
+
+" duplicate lines
+nnoremap <C-d> <S-v>yp
+vnoremap <C-d> <S-v>y`]p
+inoremap <C-d> <Esc><S-v>yp
