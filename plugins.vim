@@ -17,6 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
     Plug 'junegunn/gv.vim'
+    Plug 'junegunn/limelight.vim'
+    Plug 'junegunn/goyo.vim'
 
 call plug#end()
 

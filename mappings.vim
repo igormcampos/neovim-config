@@ -27,7 +27,6 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " keep selection after tab
 vnoremap < <gv
-
 vnoremap > >gv
 
 " navigate windows
@@ -59,3 +58,14 @@ inoremap <C-A-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-A-j> :m '>+1<CR>gv=gv
 vnoremap <C-A-k> :m '<-2<CR>gv=gv
 
+" focus on one buffer
+nnoremap <Leader>o <C-w><C-o>
+inoremap <Leader>o <Esc><C-w><C-o>
+vnoremap <Leader>o <Esc><C-w><C-o>
+
+nnoremap <Leader>c ciw
+
+" duplicate lines
+nnoremap <C-d> <S-v>yp
+vnoremap <C-d> <S-v>y`]p
+inoremap <C-d> <Esc><S-v>yp
