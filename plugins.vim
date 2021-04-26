@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'junegunn/limelight.vim'
     Plug 'junegunn/goyo.vim'
+    Plug 'benwainwright/fzf-project'
 
 call plug#end()
 

@@ -69,3 +69,16 @@ nnoremap <Leader>c ciw
 nnoremap <C-d> <S-v>yp
 vnoremap <C-d> <S-v>y`]p
 inoremap <C-d> <Esc><S-v>yp
+
+" jump projects
+nnoremap <Leader>pv 'V
+nnoremap <Leader>po 'O
+
+" new novel dialogue
+nnoremap <Leader>' i「」<Esc>i
+inoremap <Leader>' 「」<Esc>i
+
+" open dailyJournal
+nnoremap <Leader>q :exe JournalEntry()<CR>
+
+nnoremap <Leader>p :FzfSwitchProject<CR>
