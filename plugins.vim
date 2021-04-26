@@ -23,5 +23,3 @@ call plug#end()
 
 let g:onedark_hide_endofbuffer = 1
 
-let g:lightline = { 'colorscheme': 'onedark' }
-

@@ -7,3 +7,8 @@ for f in split(glob('~/.config/nvim/plugin-configs/*.vim'), '\n')
     exe 'source' f
 endfor
 
+" source all functions
+for f in split(glob('~/.config/nvim/functions/*.vim'), '\n')
+    exe 'source' f
+endfor
+

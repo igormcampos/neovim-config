@@ -17,9 +17,6 @@ nnoremap <C-c> <Esc>
 inoremap <C-u> <ESC>guawi
 nnoremap <C-u> guaw
 
-nnoremap <TAB> :bnext<CR>
-nnoremap <S-TAB> :bprevious<CR>
-
 " save and quit shortcuts
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
@@ -56,14 +53,9 @@ inoremap ;; <Esc>A;<Esc>
 
 " move lines up/down
 nnoremap <C-A-j> :m .+1<CR>==
-nnoremap <C-A-k> :m .-2<CR>==oi
+nnoremap <C-A-k> :m .-2<CR>==
 inoremap <C-A-j> <Esc>:m .+1<CR>==gi
+inoremap <C-A-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-A-j> :m '>+1<CR>gv=gv
 vnoremap <C-A-k> :m '<-2<CR>gv=gv
 
-nnoremap <Leader>c ciw
-
-" duplicate lines
-nnoremap <C-d> <S-v>yp
-vnoremap <C-d> <S-v>y`]p
-inoremap <C-d> <Esc><S-v>yp
