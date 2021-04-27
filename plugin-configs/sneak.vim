@@ -5,3 +5,6 @@ let g:sneak#s_next = 1
 " Change the colors
 highlight Sneak guifg=black guibg=cyan ctermfg=black ctermbg=cyan
 highlight SneakScope guifg=black guibg=cyan ctermfg=black ctermbg=cyan
+
+map f <Plug>Sneak_f
+map F <Plug>Sneak_F
