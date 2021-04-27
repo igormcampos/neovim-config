@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/limelight.vim'
     Plug 'junegunn/goyo.vim'
     Plug 'benwainwright/fzf-project'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 call plug#end()
 
