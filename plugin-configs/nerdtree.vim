@@ -3,7 +3,10 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <Leader>tf :NERDTreeFind<CR>
 
 " start with nerdtree
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
+
+" auto switch to file when it is opened
+" autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
 
 " close vim if only tree remains
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |

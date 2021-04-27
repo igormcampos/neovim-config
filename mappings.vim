@@ -60,7 +60,6 @@ vnoremap <C-A-k> :m '<-2<CR>gv=gv
 
 " focus on one buffer
 nnoremap <Leader>o <C-w><C-o>
-inoremap <Leader>o <Esc><C-w><C-o>
 vnoremap <Leader>o <Esc><C-w><C-o>
 
 nnoremap <Leader>c ciw
@@ -76,9 +75,7 @@ nnoremap <Leader>po 'O
 
 " new novel dialogue
 nnoremap <Leader>' i「」<Esc>i
-inoremap <Leader>' 「」<Esc>i
 
 " open dailyJournal
 nnoremap <Leader>q :exe JournalEntry()<CR>
 
-nnoremap <Leader>p :FzfSwitchProject<CR>
