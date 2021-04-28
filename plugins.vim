@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/goyo.vim'
     Plug 'benwainwright/fzf-project'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'jparise/vim-graphql'
 
 call plug#end()
 

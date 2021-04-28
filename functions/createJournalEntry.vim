@@ -1,5 +1,5 @@
 function! GetDate()
-  return strftime("%y%m%d")
+  return strftime("%Y-%m-%d")
 endfunction
 
 function! JournalEntry()
