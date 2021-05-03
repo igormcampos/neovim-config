@@ -28,6 +28,10 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " keep selection after tab
 vnoremap < <gv
 vnoremap > >gv
+vnoremap <S-Tab> <gv
+vnoremap <Tab> >gv
+nnoremap <S-Tab> V<
+nnoremap <Tab> V>
 
 " navigate windows
 nnoremap <C-h> <C-w>h

@@ -27,5 +27,8 @@
     "plaintext",
     "restructuredtext",
     "text"
+  ],
+  "cSpell.userWords": [
+    "Neovim"
   ]
 }

@@ -32,7 +32,7 @@ set timeoutlen=300
 set formatoptions-=cro
 set clipboard=unnamedplus
 
-" recommended fo CoC
+" recommended for CoC
 set nobackup
 set nowritebackup
 
