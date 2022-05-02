@@ -78,8 +78,13 @@ nnoremap <Leader>pv 'V
 nnoremap <Leader>po 'O
 
 " new novel dialogue
-nnoremap <Leader>' i「」<Esc>i
+" nnoremap <Leader>' i「」<Esc>i
 
 " open dailyJournal
 nnoremap <Leader>q :exe JournalEntry()<CR>
 
+" exec node current file
+nnoremap <Leader>n :!node %<CR>
+
+" jump to end of line in insert mode
+inoremap <Tab><Tab> <Esc>A

@@ -23,6 +23,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jparise/vim-graphql'
+    Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
